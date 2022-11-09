@@ -23,8 +23,8 @@ class OneKey extends StatelessWidget {
             },
             child: Text(number.toString(),
                 style: const TextStyle(
-                  fontSize: 26.0,
-                  color: Colors.white,
+                  fontSize: 30.0,
+                  color: Colors.orange,
                 ))),
       ),
     );

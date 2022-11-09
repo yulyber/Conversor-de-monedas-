@@ -70,7 +70,7 @@ class _KeyPadState extends State<KeyPad> {
                     textAlign: TextAlign.right,
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        color: Theme.of(context).colorScheme.secondary,
+                        color: Theme.of(context).colorScheme.primary,
                         fontSize: 35),
                   )),
             ],
@@ -93,7 +93,7 @@ class _KeyPadState extends State<KeyPad> {
                     textAlign: TextAlign.right,
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        color: Theme.of(context).colorScheme.secondary,
+                        color: Theme.of(context).colorScheme.primary,
                         fontSize: 35),
                   ))
             ],
@@ -137,14 +137,14 @@ class _KeyPadState extends State<KeyPad> {
                   child: MaterialButton(
                       key: const Key("reset"),
                       padding: const EdgeInsets.fromLTRB(0, 20, 0, 20),
-                      color: Theme.of(context).colorScheme.secondary,
+                      color: Theme.of(context).colorScheme.primary,
                       onPressed: () {
                         _onPressed(10);
                       },
                       child: const Text("Reset",
                           style: TextStyle(
                             fontSize: 26.0,
-                            color: Colors.white,
+                            color: Colors.orange,
                           ))),
                 ),
               ),
