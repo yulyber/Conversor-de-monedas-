@@ -109,7 +109,9 @@ class _KeyPadState extends State<KeyPad> {
                 children: <Widget>[
                   // TODO
                   // en cada OneKey se manda el número y _onPressed para callback
-                  const Text('OneKey para 7, 8 y 9'),
+                  OneKey(number: 7, callback: _onPressed),
+                  OneKey(number: 8, callback: _onPressed),
+                  OneKey(number: 9, callback: _onPressed),
                 ]),
           ),
           Expanded(
@@ -119,7 +121,9 @@ class _KeyPadState extends State<KeyPad> {
                 children: <Widget>[
                   // TODO
                   // en cada OneKey se manda el número y _onPressed para callback
-                  const Text('OneKey para 6, 5 y 4'),
+                  OneKey(number: 6, callback: _onPressed),
+                  OneKey(number: 5, callback: _onPressed),
+                  OneKey(number: 4, callback: _onPressed),
                 ]),
           ),
           Expanded(
@@ -129,7 +133,9 @@ class _KeyPadState extends State<KeyPad> {
                 children: <Widget>[
                   // TODO
                   // en cada OneKey se manda el número y _onPressed para callback
-                  const Text('OneKey para 1, 2 y 3'),
+                  OneKey(number: 3, callback: _onPressed),
+                  OneKey(number: 2, callback: _onPressed),
+                  OneKey(number: 1, callback: _onPressed),
                 ]),
           ),
           Expanded(
