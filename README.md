@@ -7,7 +7,8 @@ Este primer reto esta enfocado en el desarrollo de interfaces de usuario con la 
 
 El siguiente es un demo de la interfaz:
 
-<img src="https://user-images.githubusercontent.com/4458129/173209201-ecf02c3e-8571-42a0-92d5-5a9111f5b3b0.gif" width="300" />
+![Grabar_2022_11_08_22_58_12_303](https://user-images.githubusercontent.com/113151593/200735514-c0f6bd28-6343-4853-ab6d-ea5bd30626d8.gif)
+
 
 Solución:
 
