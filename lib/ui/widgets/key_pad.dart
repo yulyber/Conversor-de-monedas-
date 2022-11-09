@@ -31,10 +31,14 @@ class _KeyPadState extends State<KeyPad> {
       if (k == 10) {
         // TODO
         // cuando k es 10 se debe volver el estado a cero
+        _currency1=0;
+        _currency2=0;
       } else {
         // TODO
         // _currency1 debe cambiar con el keypad
         // _currency2 debe cambiar de acuerdo con _currency1 y la tasa de cambio
+        _currency1= _currency1*10+k;
+        _currency2= _currency1*widget.rate;
       }
     });
   }
@@ -150,7 +154,7 @@ class _KeyPadState extends State<KeyPad> {
               ),
               // TODO
               // en cada OneKey se manda el número y _onPressed para callback
-              const Text('OneKey para 0'),
+              OneKey(number: 0, callback: _onPressed),
             ]),
           )
         ]);
