@@ -84,7 +84,8 @@ class _KeyPadState extends State<KeyPad> {
             children: [
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Text('se muestra textCurrency1'),
+                // child: Text('se muestra textCurrency1'),
+                child: Text(widget.textCurrency2),
               ),
               Expanded(
                 child: Container(),
