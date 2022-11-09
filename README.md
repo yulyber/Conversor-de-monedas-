@@ -1,13 +1,14 @@
-# Reto # 1
+# Reto # 1 - NRC2291 - Equipo 02
 
-Proyecto base para el primer reto
+Barbara Alvarez Ospina, Diana Angulo Ledesma, Edgar Moreno Bohada, Yuly Berbesi Perez.
 
-El código incluye comentarios que explican la estructura del proyecto y los puntos en los que se tiene que trabajar están marcados con un TODO. 
 
-El siguiente es un demo de la interfaz a la que se debe llegar (funcionalidades adicionales o mejoras a la interfaz son permitidas):
+Este primer reto esta enfocado en el desarrollo de interfaces de usuario con la ayuda de widgets con y sin estado. El proyecto consiste en una aplicación de conversor de monedas.
+
+El siguiente es un demo de la interfaz:
 
 <img src="https://user-images.githubusercontent.com/4458129/173209201-ecf02c3e-8571-42a0-92d5-5a9111f5b3b0.gif" width="300" />
 
 Solución:
 
-https://github.com/MisionTIC4b/f_currency_converter
+https://github.com/yulyber/Conversor-de-monedas-
